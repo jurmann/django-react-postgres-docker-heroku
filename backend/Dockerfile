@@ -25,5 +25,5 @@ EXPOSE 8000
 
 # Be sure to use 0.0.0.0 for the host within the Docker container,
 # otherwise the browser won't be able to find it
-RUN ["chmod", "+x", "/app/entrypoint.sh"]
-ENTRYPOINT [ "/app/entrypoint.sh" ]
+RUN ["chmod", "+x", "/app/entrypoint-dev.sh"]
+ENTRYPOINT [ "/app/entrypoint-dev.sh" ]
