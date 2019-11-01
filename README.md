@@ -15,9 +15,10 @@ This repo serves as a starting point for developing a production-ready applicati
    4) Set your envionment variables for your production environment by running:  
     ```heroku config:set PRODUCTION_HOST=<your app name>.herokuapp.com SECRET_KEY=<your secret key> DJANGO_SETTINGS_MODULE=backend.settings.prod```  
     - Additional info on the SECRET_KEY can be found [here](https://docs.djangoproject.com/en/2.2/ref/settings/#std:setting-SECRET_KEY)  
-   5) Run `heroku stack:set container` so Heroku knows this is a containerized application  
-   6) Deploy your app by running: `git push heroku master`  
-   7) Go to `<your app name>.herokuapp.com` to see the published website.  
+   5) Run: `heroku stack:set container` so Heroku knows this is a containerized application  
+   6) Run: `heroku addons:create heroku-postgresql:hobby-dev` which creates the postgres add-on for Heroku 
+   7) Deploy your app by running: `git push heroku master`  
+   8) Go to `<your app name>.herokuapp.com` to see the published website.  
 
 # Additional Resources  
 ## Official Documentation  
