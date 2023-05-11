@@ -1,3 +1,5 @@
+### NOTE: Due to [Heroku's decision to remove the free tier](https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq) this repo is no longer being updated
+
 # Django React Postgres Docker Heroku App
 This repo serves as a starting point for developing a production-ready application using Django, Postgres, and React in a Dockerized environment with deployment to Heroku. Logic was added in a view (backend/service/views.py) and the frontend (frontend/src/App.js) to show the communication between the frontend (React) and backend (Django), otherwise very little business logic has been added to this project. For additional details on how this project was set up, see the [Third-Party Guides](#Third-Party-Guides) that were used as a foundation for this project below.  
 
