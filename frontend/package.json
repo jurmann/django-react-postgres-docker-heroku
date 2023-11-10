@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://backend:8000",
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^1.6.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "5.0.1"
